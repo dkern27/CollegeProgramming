@@ -1,0 +1,57 @@
+Drew Lange - dlange - Section C
+Dylan Kern - dkern - Section D
+Asteroids
+
+
+Program Description:
+Our program recreates the first level of the classic game Asteroids.
+The player starts at the center and uses the arrows keys to move around. The space bar fires
+a projectile to destroy asteroids. The asteroids break apart once on collision with the projectile,
+and if hit again are permanently destroyed. You win if all asteroids are destroyed, and you lose if
+the ship collides with an asteroid.
+
+
+Program Documentation: 
+When the program is run, it jumps straight into the game. The up arrow key moves the player forward,
+while left and right rotate the player. The space bar shoots a projectile. 
+
+*On one of our computers, the ship cannot turn left and shoot at the same time, but it works on the other computer.
+
+Possible modification include:
+	speed of ship
+	rotation speed
+	max bullets
+	start asteroids
+	Add point system
+	Add levels
+	Revise ship movement
+	More accurate collisions
+	Ship lives
+
+The first four require changing a constant. 
+The points system would be necessary if more levels existed. It would be tied to the bullet-asteroid collision
+and increment the points by a set amount.
+Levels would be different by the number of asteroids. The program would loop when all the asteroids are destroyed,
+spawning new asteroids, until the ship is destroyed.
+Ship movement needs some revision as single key presses cause unexpected movement.
+Collisions with the ship would need more information for the irregular shape of the asteroid and ship.
+Lives would likely require a for or while loop.
+
+Tests:
+1) Invalid key inputs are ignored and do not do anything.
+2) Game ends when ship collides with an asteroid.
+3) Asteroids break into two asteroids when first hit, and disappear when hit a second time. Location of the 
+new asteroids are consistent with the original and break off at slightly different angles.
+4) Borders of window cause for objects to reappear on opposite side
+5) Game ends when all asteroids are gone
+
+
+Reflection: 
+The project enhanced our knowledge and implementation of SFML through the SFML documentation. 
+We also enhanced our general coding ability by having to create the project from scratch.
+We knew the program would be difficult, but there were more obstacles than we expected. It was frustrating to have
+to change a part of the program that appears in many places when we found a better way to do something. If we were
+to do it again, we would likely focus more on efficiency in our code. We would also use the SFML template instead
+of doing it ourselves.
+
+
