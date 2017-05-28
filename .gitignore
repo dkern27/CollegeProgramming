@@ -1,0 +1,15 @@
+#C++ and XCode
+*/*/*.xcodeproj
+*/*/googletest
+
+#Java
+*/*/bin
+
+#Hidden files
+*/*/.*
+
+#Python
+*/*/*.pyc
+
+#Other
+*/*/*.zip
