@@ -1,0 +1,21 @@
+Dwayne 'The Rock' Johnson,Person
+Enrique Iglesias,Person
+Pikachu,Person
+Jennifer Lopez,Person
+RFC,Person
+Laith Haddad,Person
+Laundry Room,Room
+Kitchen,Room
+Pantry,Room
+Bathroom,Room
+Game room,Room
+Office,Room
+Movie theatre,Room
+Swimming Pool,Room
+Exercise room,Room
+Spoon,Weapon
+Quantum Mechanics,Weapon
+Spork,Weapon
+Airplane,Weapon
+Cardboard Box,Weapon
+Rhinoceros,Weapon

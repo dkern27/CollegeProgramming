@@ -1,0 +1,11 @@
+L, Laundry room, Card
+K, Kitchen, Card
+P, Pantry, Card
+B, Bathroom, Card
+G, Game room, Card
+O, Office, Card
+M, Movie theatre, Card
+S, Swimming Pool, Card
+E, Exercise room, Card
+X, Closet, Other
+W, Walkway, Other

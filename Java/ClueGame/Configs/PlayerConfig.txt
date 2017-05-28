@@ -1,0 +1,6 @@
+Dwayne 'The Rock' Johnson,0,6,RED
+Enrique Iglesias,0,14,BLUE
+Pikachu,0,18,YELLOW
+Jennifer Lopez,18,0,GREEN
+RFC,22,7,ORANGE
+Laith Haddad,22,14,WHITE

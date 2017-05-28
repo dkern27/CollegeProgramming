@@ -1,0 +1,17 @@
+LevelGame-Documentation
+Hanna Barringer
+Dylan Kern
+
+PointPiece - InteractingPiece. Awards a point to the player if they are at same location. Each one can only be collected once.
+
+Monster - InteractingPiece, Moveable. Hurts the player if they come into contact by sharing a space. Moves back and forth across the board and switches direction when it comes into contact with the edge. Also jumps over other pieces.
+
+Nothing - Does not move or interact with the player.
+
+Fairy - InteractingPiece, Moveable. Heals the player if they come into contact with it regardless of their current health. Moves randomly.
+
+Sniper - InteractingPiece. Kills player if they are at +-2 spaces of the sniper. 
+
+Treasure - InteractingPiece. Automatically moves player into the next level when landed on.
+
+Spikes - InteractingPiece. Kills on impact.
