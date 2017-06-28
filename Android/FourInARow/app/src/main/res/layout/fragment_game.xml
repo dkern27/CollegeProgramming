@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<TextView
+		android:id="@+id/whos_turn_text"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:paddingTop="8dp"
+		android:textSize="24dp" />
+	<GridLayout
+		android:id="@+id/game_board"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:backgroundTint="@android:color/white"
+		android:paddingTop="16dp"
+		android:paddingBottom="16dp"
+		android:layout_below="@id/whos_turn_text"
+		>
+	</GridLayout>
+	<TextView
+		android:id="@+id/help_text"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/game_board"
+		android:layout_centerHorizontal="true"
+		android:text="@string/help_text"
+		android:textSize="24dp" />
+
+	<Button
+		android:text="@string/new_game_button"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/play_again_button"
+		android:layout_below="@id/help_text"
+		android:layout_centerHorizontal="true"/>
+	<Button
+		android:text="@string/go_back_button"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/play_again_button"
+		android:id="@+id/go_back_button"
+		android:layout_centerHorizontal="true"/>
+</RelativeLayout>

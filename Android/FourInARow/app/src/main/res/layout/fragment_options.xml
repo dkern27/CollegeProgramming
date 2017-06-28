@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<TextView
+		android:text="@string/num_players_text"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/num_players_text"
+		android:textAlignment="center"
+		android:padding="8dp"
+		android:textSize="24dp"/>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<Button
+			android:text="1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/onePlayersButton"
+			android:layout_weight="1" />
+
+		<Button
+			android:text="2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/twoPlayersButton"
+			android:layout_weight="1" />
+	</LinearLayout>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Player 1 Color"
+		android:textSize="24dp"
+		android:layout_gravity="center"/>
+	<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/rg_p1Color"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:layout_gravity="center">
+		<RadioButton android:id="@+id/radio_red"
+			android:text="Red"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:onClick="onRadioButtonClickedP1"/>
+		<RadioButton android:id="@+id/radio_magenta"
+			android:text="Magenta"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:onClick="onRadioButtonClickedP1"/>
+		<RadioButton android:id="@+id/radio_yellow"
+			android:text="Yellow"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:onClick="onRadioButtonClickedP1"/>
+	</RadioGroup>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Player 2 Color"
+		android:textSize="24dp"
+		android:layout_gravity="center"/>
+	<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/rg_p2Color"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:layout_gravity="center">
+		<RadioButton android:id="@+id/radio_blue"
+			android:text="Blue"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:onClick="onRadioButtonClickedP2"/>
+		<RadioButton android:id="@+id/radio_green"
+			android:text="Green"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:onClick="onRadioButtonClickedP2"/>
+		<RadioButton android:id="@+id/radio_cyan"
+			android:text="Cyan"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:onClick="onRadioButtonClickedP2"/>
+	</RadioGroup>
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/score_text"
+		android:textAlignment="center"
+		android:padding="8dp"
+		android:textSize="24dp"/>
+	<Button
+		android:id="@+id/reset_score_button"
+		android:text="Reset Score"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"/>
+
+	<Button
+		android:id="@+id/options_go_back_button"
+		android:text="@string/save_options"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"/>
+
+</LinearLayout>

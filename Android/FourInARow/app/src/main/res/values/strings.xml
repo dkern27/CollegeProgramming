@@ -1,0 +1,14 @@
+<resources>
+	<string name="app_name">Four in a Row</string>
+	<string name="play">Play</string>
+	<string name="options">Options</string>
+	<string name="quit">quit</string>
+	<string name="help_text">Touch a space to add a piece</string>
+	<string name="cell_chosen_already">This cell has been chosen already</string>
+	<string name="no_adjacent_cell">Choose a cell adjacent to one that has been chosen</string>
+	<string name="new_game_button">New Game</string>
+	<string name="go_back_button">Go Back</string>
+	<string name="num_players_text">Number of Players</string>
+	<string name="save_options">Save Options</string>
+</resources>
+

@@ -1,0 +1,24 @@
+<resources>
+	<string name="app_name">dkern_A1</string>
+	<string name="true_button">True</string>
+	<string name="false_button">False</string>
+	<string name="next_button">Next</string>
+	<string name="prev_button">Prev</string>
+	<string name="submit_button">Submit</string>
+	<string name="submit_button_hint">Enter Answer Here</string>
+	<string name="correct_toast">Correct!</string>
+	<string name="incorrect_toast">Incorrect!</string>
+	<string name="already_answered">You already answered this question</string>
+	<string name="no_text_entered">You didn\'t enter an answer!</string>
+	<string name = "points">Points: %1$d </string>
+
+	<string name="tf_question">Canada has more lakes than the rest of the world combined.</string>
+	<string name="mc_question">Which continent has the most countries?</string>
+	<string name="fb_question">What is the third planet from the sun?</string>
+
+	<string name="title_activity_cheat">Cheat</string>
+	<string name="warning_text">Are you sure you want to do this?</string>
+	<string name="show_answer_button">Show Answer</string>
+	<string name="cheat_button">Cheat!</string>
+	<string name="judgment_toast">Cheating is wrong.</string>
+</resources>

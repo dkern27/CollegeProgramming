@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">GeoQuiz</string>
+    <string name="true_button">True</string>
+    <string name="false_button">False</string>
+    <string name="next_button">Next</string>
+    <string name="prev_button">Prev</string>
+    <string name="correct_toast">Correct!</string>
+    <string name="incorrect_toast">Incorrect!</string>
+
+    <string name="question_reno">Reno, Nevada is west of Los Angeles, California.</string>
+    <string name="question_canada">Canada has more lakes than the rest of the world combined.</string>
+    <string name="question_penguin">Penguins are from the north and south pole.</string>
+    <string name="question_hole">The deepest hole dug by man is over 12 km deep.</string>
+    <string name="question_australia">Australia is not an island.</string>
+</resources>

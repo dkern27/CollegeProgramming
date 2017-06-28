@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	tools:context="com.csci448.dkern_a3.mapit.MapActivity">
+
+	<item
+		android:id="@+id/clear_map"
+		android:title="Clear Map"
+		app:showAsAction="ifRoom"
+		/>
+</menu>

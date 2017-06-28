@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.csci448.dkern_a4.breakout.GameView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/game_view"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+</com.csci448.dkern_a4.breakout.GameView>

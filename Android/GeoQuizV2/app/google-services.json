@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "658971364037",
+    "firebase_url": "https://innate-temple-160918.firebaseio.com",
+    "project_id": "innate-temple-160918",
+    "storage_bucket": "innate-temple-160918.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658971364037:android:a1827c6f96c4647a",
+        "android_client_info": {
+          "package_name": "com.csci448.dkern.geoquizV2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "658971364037-rr33oj6kibmnnrv4ga4r700g3a37mai1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.csci448.dkern.geoquizV2",
+            "certificate_hash": "eeb91ff8a81d04ea29ed4c9c53802075c2e01052"
+          }
+        },
+        {
+          "client_id": "658971364037-1h4g4rs1rh1lmvgbu5t6pdpqo36r9h5n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_u8GypFUZIk6pri4Qh33pg667lU_r_Gg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "658971364037-1h4g4rs1rh1lmvgbu5t6pdpqo36r9h5n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
